@@ -1,4 +1,4 @@
-🧾 Proyecto Integrador – Módulo 1
+# 🧾 Proyecto Integrador – Módulo 1
 Nombre del archivo: proyecto_calculadora_operativa.py
 Nombre del proyecto: Calculadora de Eficiencia Operativa Diaria
 
