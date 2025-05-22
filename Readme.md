@@ -29,9 +29,9 @@ Calcula automáticamente:
 3. Porcentaje de tiempo en pausas
 4. Porcentaje de tiempo improductivo
 5. Una evaluación textual según su eficiencia:
-🔴 Menos de 50% → "Necesitas mejorar tu enfoque."
-🟡 Entre 50% y 80% → "Buen desempeño, pero hay margen de mejora."
-🟢 Más de 80% → "Excelente nivel de productividad."
+*🔴 Menos de 50% → "Necesitas mejorar tu enfoque."
+*🟡 Entre 50% y 80% → "Buen desempeño, pero hay margen de mejora."
+*🟢 Más de 80% → "Excelente nivel de productividad."
 6. Muestra todos los resultados en una tabla de resumen clara y ordenada (estilo terminal).
 
 🧰 Restricciones técnicas:
