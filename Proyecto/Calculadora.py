@@ -18,7 +18,7 @@ minutos_pausa = int(input("Ingrese el número de minutos de pausa: "))
 minutos_improductivos = int(input("Ingrese el número de minutos de improductivo: "))
 
 hora_trabajada = (hora_fin - hora_inicio) * 60
-tiempo_productivo = (minutos_productivos / hora_trabajada) * 100 
+tiempo_productivo = (minutos_productivos / hora_trabajada) * 100
 tiempo_pausa = (minutos_pausa / hora_trabajada) * 100
 tiempo_improductivos = (minutos_improductivos / hora_trabajada) * 100
 
@@ -29,12 +29,16 @@ elif tiempo_productivo >= 50 and tiempo_productivo < 80:
 elif tiempo_productivo >= 80:
     evaluacion = "Excelente desempeño, sigue así."
 
-print ("========== RESUMEN DE EFICIENCIA OPERATIVA ==========")
-print (f"{'Nombre':18}: {nombre}")
-print (f"{'Área':18}: {area}")
-print (f"{'Jornada(min)':18}: {hora_trabajada}")
-print (f"{'Tiempo productivo':18}: {minutos_productivos} min ({tiempo_productivo:.2f}%)")
-print (f"{'Pausas tomadas':18}: {minutos_pausa} min ({tiempo_pausa:.2f}%)")
-print (f"{'Tiempo perdido':18}: {minutos_improductivos} min ({tiempo_improductivos:.2f}%)")
-print (f"\nEvaluación: {evaluacion}")
-print ("======================================================")
+print("========== RESUMEN DE EFICIENCIA OPERATIVA ==========")
+print(f"{'Nombre':18}: {nombre}")
+print(f"{'Área':18}: {area}")
+print(f"{'Jornada(min)':18}: {hora_trabajada}")
+print(f"{'Tiempo productivo':18}: {minutos_productivos} min ({tiempo_productivo:.2f}%)")
+print(f"{'Pausas tomadas':18}: {minutos_pausa} min ({tiempo_pausa:.2f}%)")
+print(
+    f"{'Tiempo perdido':18}: {minutos_improductivos} min ({tiempo_improductivos:.2f}%)"
+)
+print(f"\nEvaluación: {evaluacion}")
+print("======================================================")
+
+# Proyecto terminado
